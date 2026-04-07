@@ -1,3 +1,15 @@
 {
-  "item.gemsmod.fire_gem": "Fire Gem"
+  "item.mysticgemsmod.fire_gem": "Fire Gem",
+  "item.mysticgemsmod.water_gem": "Water Gem",
+  "item.mysticgemsmod.speed_gem": "Speed Gem",
+  "item.mysticgemsmod.strength_gem": "Strength Gem",
+  "block.mysticgemsmod.gem_infuser": "Gem Infuser",
+  "itemGroup.mysticgemsmod.main": "Mystic Gems",
+  "message.mysticgemsmod.gem_attuned": "Attuned %s.",
+  "message.mysticgemsmod.gem_unattuned": "Unattuned %s.",
+  "message.mysticgemsmod.gem_not_attuned": "You must attune this gem first (Sneak + Right Click).",
+  "message.mysticgemsmod.gem_on_cooldown": "Gem ability is on cooldown.",
+  "message.mysticgemsmod.gem_ability_used": "%s ability activated!",
+  "message.mysticgemsmod.gem_limit": "You can only attune up to %s gems.",
+  "message.mysticgemsmod.gem_infuser_hint": "Use the Gem Infuser as your custom gem crafting station."
 }

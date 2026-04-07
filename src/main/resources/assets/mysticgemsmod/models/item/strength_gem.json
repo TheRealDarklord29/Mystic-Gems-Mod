@@ -2,7 +2,7 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "minecraft:item/emerald",
-    "layer1": "minecraft:item/red_dye",
+    "layer1": "minecraft:item/purple_dye",
     "layer2": "minecraft:item/amethyst_shard"
   }
 }

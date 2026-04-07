@@ -1,5 +1,9 @@
 package net.cp.gemsmod;
 
+import net.cp.gemsmod.block.ModBlocks;
+import net.cp.gemsmod.config.ModConfig;
+import net.cp.gemsmod.gem.GemDropHandler;
+import net.cp.gemsmod.gem.GemTickHandler;
 import net.cp.gemsmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,6 +16,10 @@ public class MysticGemsMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModConfig.load();
+        ModBlocks.registerModBlocks();
         ModItems.registerModItems();
+        GemDropHandler.register();
+        GemTickHandler.register();
 	}
 }

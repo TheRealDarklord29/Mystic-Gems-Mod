@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mysticgemsmod:block/gem_infuser"
+    }
+  }
+}

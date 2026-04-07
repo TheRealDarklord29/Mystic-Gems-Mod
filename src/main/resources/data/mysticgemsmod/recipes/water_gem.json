@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "W W",
+    "BNB",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wither_star"
+    },
+    "N": {
+      "item": "minecraft:netherite_block"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result": {
+    "id": "mysticgemsmod:water_gem",
+    "count": 1
+  }
+}
