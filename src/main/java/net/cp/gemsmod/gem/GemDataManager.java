@@ -1,7 +1,7 @@
 package net.cp.gemsmod.gem;
 
 import net.cp.gemsmod.config.ModConfig;
-import net.cp.gemsmod.item.ModItems;
+import net.cp.gemsmod.registry.ItemRegistry;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.item.Item;
 import net.minecraft.nbt.NbtCompound;
@@ -61,10 +61,10 @@ public final class GemDataManager {
 
     private static Item gemItemForType(GemType gemType) {
         return switch (gemType) {
-            case FIRE -> ModItems.FIRE_GEM;
-            case WATER -> ModItems.WATER_GEM;
-            case SPEED -> ModItems.SPEED_GEM;
-            case STRENGTH -> ModItems.STRENGTH_GEM;
+            case FIRE -> ItemRegistry.FIRE_GEM;
+            case WATER -> ItemRegistry.WATER_GEM;
+            case SPEED -> ItemRegistry.SPEED_GEM;
+            case STRENGTH -> ItemRegistry.STRENGTH_GEM;
         };
     }
 

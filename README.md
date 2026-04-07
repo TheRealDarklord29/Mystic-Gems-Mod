@@ -5,6 +5,9 @@ If you want to give me credits, my name is **CryonixPrime (Leon)**.
 
 ## Quick links
 - Build tutorial: `jar/TUTORIAL.md`
+- Architecture: `docs/ARCHITECTURE.md`
+- Folder layout: `docs/FOLDER_LAYOUT.md`
+- Contributing guide: `docs/CONTRIBUTING.md`
 
 ## Features
 - **Gem system** with multiple gem types:

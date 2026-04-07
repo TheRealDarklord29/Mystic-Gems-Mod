@@ -1,7 +1,7 @@
 package net.cp.gemsmod.gem;
 
 import net.cp.gemsmod.config.ModConfig;
-import net.cp.gemsmod.item.ModItems;
+import net.cp.gemsmod.registry.ItemRegistry;
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.entity.mob.BlazeEntity;
@@ -48,10 +48,10 @@ public final class GemDropHandler {
 
     private static ItemStack gemStack(GemType gemType) {
         return switch (gemType) {
-            case FIRE -> new ItemStack(ModItems.FIRE_GEM);
-            case WATER -> new ItemStack(ModItems.WATER_GEM);
-            case SPEED -> new ItemStack(ModItems.SPEED_GEM);
-            case STRENGTH -> new ItemStack(ModItems.STRENGTH_GEM);
+            case FIRE -> new ItemStack(ItemRegistry.FIRE_GEM);
+            case WATER -> new ItemStack(ItemRegistry.WATER_GEM);
+            case SPEED -> new ItemStack(ItemRegistry.SPEED_GEM);
+            case STRENGTH -> new ItemStack(ItemRegistry.STRENGTH_GEM);
         };
     }
 }

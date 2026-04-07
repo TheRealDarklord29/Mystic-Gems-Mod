@@ -1,10 +1,10 @@
 package net.cp.gemsmod;
 
-import net.cp.gemsmod.block.ModBlocks;
 import net.cp.gemsmod.config.ModConfig;
 import net.cp.gemsmod.gem.GemDropHandler;
 import net.cp.gemsmod.gem.GemTickHandler;
-import net.cp.gemsmod.item.ModItems;
+import net.cp.gemsmod.registry.BlockRegistry;
+import net.cp.gemsmod.registry.ItemRegistry;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -17,8 +17,8 @@ public class MysticGemsMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
         ModConfig.load();
-        ModBlocks.registerModBlocks();
-        ModItems.registerModItems();
+        BlockRegistry.register();
+        ItemRegistry.register();
         GemDropHandler.register();
         GemTickHandler.register();
 	}

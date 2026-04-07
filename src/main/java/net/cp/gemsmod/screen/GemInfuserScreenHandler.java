@@ -1,6 +1,6 @@
 package net.cp.gemsmod.screen;
 
-import net.cp.gemsmod.block.ModBlocks;
+import net.cp.gemsmod.registry.BlockRegistry;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.screen.CraftingScreenHandler;
@@ -17,6 +17,6 @@ public class GemInfuserScreenHandler extends CraftingScreenHandler {
 
     @Override
     public boolean canUse(PlayerEntity player) {
-        return ScreenHandler.canUse(this.context, player, ModBlocks.GEM_INFUSER);
+        return ScreenHandler.canUse(this.context, player, BlockRegistry.GEM_INFUSER);
     }
 }
